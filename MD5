@@ -1,0 +1,14 @@
+f68c67c0415e3ab054b245652196dffa *DESCRIPTION
+fa818a259cbed7ce8bc2a22d35a464fc *LICENSE
+a1586a572901d72b356736999b9df2a7 *NAMESPACE
+24873e6d22415d935ff1db8faa300e55 *R/h2o_context.R
+aeed18f7a1827f7a68b0f2cb8c2bd4f6 *R/package.R
+9dbc2d73404ce30e10bed9f0eda400ad *inst/examples/example_rsparkling.R
+658a00b794bef0a443be40b3302b0a25 *inst/examples/nycflights13.R
+fde325a6f2fc99c5b35c27e819ca86e4 *man/as_h2o_frame.Rd
+7f663dcd3c025118e2ee227153abd62a *man/as_spark_dataframe.Rd
+1cc91c2219e8ea14f2811f9f9ffee6fc *man/h2o_context.Rd
+d49717ec6a7ddeb30236c38977be90c9 *man/h2o_flow.Rd
+b175e1b79ca193a95e42bd453788baf3 *tests/testthat.R
+5a45e0b509c81460091583684b466b99 *tests/testthat/test_aaa_install_spark.R
+6c51f4d8357fa26a26ecfeff09e747b7 *tests/testthat/test_transforms.R
