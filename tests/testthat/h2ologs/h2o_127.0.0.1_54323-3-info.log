@@ -1,0 +1,136 @@
+02-23 19:15:24.670 127.0.0.1:54323       48320  #r thread INFO: ----- H2O started  -----
+02-23 19:15:24.676 127.0.0.1:54323       48320  #r thread INFO: Build git branch: rel-turing
+02-23 19:15:24.676 127.0.0.1:54323       48320  #r thread INFO: Build git hash: 3b286dea7b719b6ef2c2f5f7728648f2440a1502
+02-23 19:15:24.676 127.0.0.1:54323       48320  #r thread INFO: Build git describe: jenkins-rel-turing-6
+02-23 19:15:24.676 127.0.0.1:54323       48320  #r thread INFO: Build project version: 3.10.0.6 (latest version: 3.10.3.5)
+02-23 19:15:24.676 127.0.0.1:54323       48320  #r thread INFO: Build age: 5 months and 28 days
+02-23 19:15:24.676 127.0.0.1:54323       48320  #r thread INFO: Built by: 'jenkins'
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Built on: '2016-08-26 11:15:18'
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: 
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: *** Your H2O version is too old! Please download the latest version 3.10.3.5 from http://h2o.ai/download/ ***
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: 
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Processed H2O arguments: [-name, sparkling-water-navdeepgill_-778498362, -ga_opt_out, -log_level, INFO, -baseport, 54321, -ip, localhost, -log_dir, /Users/navdeepgill/Desktop/rsparkling/tests/testthat/h2ologs]
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Java availableProcessors: 8
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Java heap totalMemory: 923.0 MB
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Java heap maxMemory: 923.0 MB
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Java version: Java 1.7.0_79 (from Oracle Corporation)
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: JVM launch parameters: [-Xms1g, -Xmx1g, -XX:MaxPermSize=256m]
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: OS version: Mac OS X 10.11 (x86_64)
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Machine physical memory: 16.00 GB
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: X-h2o-cluster-id: 1487906122762
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: User name: 'navdeepgill'
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Opted out of sending usage metrics.
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: IPv6 stack selected: false
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:9632:375f:bed:382d%10/name:utun0 (utun0)
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:f074:eaff:fea3:69b2%8/name:awdl0 (awdl0)
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Possible IP Address: en0 (en0), fe80:0:0:0:aebc:32ff:feb4:4307%4
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Possible IP Address: en0 (en0), 172.16.2.116
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Possible IP Address: lo0 (lo0), fe80:0:0:0:0:0:0:1%1
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Possible IP Address: lo0 (lo0), 0:0:0:0:0:0:0:1
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Possible IP Address: lo0 (lo0), 127.0.0.1
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Internal communication uses port: 54324
+02-23 19:15:24.677 127.0.0.1:54323       48320  #r thread INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54323/
+02-23 19:15:24.695 127.0.0.1:54323       48320  #r thread INFO: H2O cloud name: 'sparkling-water-navdeepgill_-778498362' on localhost/127.0.0.1:54323, discovery address /226.20.239.133:57876
+02-23 19:15:24.695 127.0.0.1:54323       48320  #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+02-23 19:15:24.695 127.0.0.1:54323       48320  #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54323 navdeepgill@127.0.0.1'
+02-23 19:15:24.695 127.0.0.1:54323       48320  #r thread INFO:   2. Point your browser to http://localhost:55555
+02-23 19:15:24.695 127.0.0.1:54323       48320  #r thread INFO: Log dir: '/Users/navdeepgill/Desktop/rsparkling/tests/testthat/h2ologs'
+02-23 19:15:24.695 127.0.0.1:54323       48320  #r thread INFO: Cur dir: '/Users/navdeepgill/Desktop/rsparkling/tests/testthat'
+02-23 19:15:24.700 127.0.0.1:54323       48320  #r thread INFO: HDFS subsystem successfully initialized
+02-23 19:15:24.705 127.0.0.1:54323       48320  #r thread INFO: S3 subsystem successfully initialized
+02-23 19:15:24.705 127.0.0.1:54323       48320  #r thread INFO: Flow dir: '/Users/navdeepgill/h2oflows'
+02-23 19:15:24.712 127.0.0.1:54323       48320  #r thread INFO: Cloud of size 1 formed [localhost/127.0.0.1:54323]
+02-23 19:15:24.729 127.0.0.1:54323       48320  #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, CSV]
+02-23 19:15:24.729 127.0.0.1:54323       48320  #r thread INFO: Registered 0 extensions in: 500mS
+02-23 19:15:25.048 127.0.0.1:54323       48320  #r thread INFO: Registered: 128 REST APIs in: 319mS
+02-23 19:15:25.048 127.0.0.1:54323       48320  #r thread INFO: 
+02-23 19:15:25.048 127.0.0.1:54323       48320  #r thread INFO: Open H2O Flow in your web browser: http://127.0.0.1:54323
+02-23 19:15:25.048 127.0.0.1:54323       48320  #r thread INFO: 
+02-23 19:15:30.907 127.0.0.1:54323       48320  #roup-2-2 INFO: Registered: 204 schemas in 1228ms
+02-23 19:15:30.987 127.0.0.1:54323       48320  #4659-218 INFO: GET /, parms: {}
+02-23 19:15:30.999 127.0.0.1:54323       48320  #4659-219 INFO: GET /, parms: {}
+02-23 19:15:31.075 127.0.0.1:54323       48320  #4659-221 INFO: GET /3/InitID, parms: {}
+02-23 19:15:31.076 127.0.0.1:54323       48320  #4659-221 INFO: Locking cloud to new members, because water.api.schemas3.InitIDV3
+02-23 19:15:31.236 127.0.0.1:54323       48320  #4659-223 INFO: GET /3/Frames/frame_rdd_33, parms: {row_count=10}
+02-23 19:15:31.386 127.0.0.1:54323       48320  #4659-224 INFO: GET /, parms: {}
+02-23 19:15:31.392 127.0.0.1:54323       48320  #4659-218 INFO: GET /, parms: {}
+02-23 19:15:31.405 127.0.0.1:54323       48320  #4659-220 INFO: GET /3/InitID, parms: {}
+02-23 19:15:31.622 127.0.0.1:54323       48320  #4659-222 INFO: GET /3/Frames/frame_rdd_33, parms: {row_count=10}
+02-23 19:15:31.719 127.0.0.1:54323       48320  #4659-224 INFO: GET /3/Frames/frame_rdd_33, parms: {row_count=10}
+02-23 19:15:31.743 127.0.0.1:54323       48320  #4659-219 INFO: GET /3/Frames/frame_rdd_33, parms: {row_count=10}
+02-23 19:15:32.231 127.0.0.1:54323       48320  #4659-220 INFO: GET /, parms: {}
+02-23 19:15:32.236 127.0.0.1:54323       48320  #4659-221 INFO: GET /, parms: {}
+02-23 19:15:32.248 127.0.0.1:54323       48320  #4659-223 INFO: GET /3/InitID, parms: {}
+02-23 19:15:32.308 127.0.0.1:54323       48320  #4659-218 INFO: GET /3/Frames/frame_rdd_76, parms: {row_count=10}
+02-23 19:15:32.343 127.0.0.1:54323       48320  #4659-221 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8832_1 (rows (cols frame_rdd_76 [0]) [0])), session_id=_sid_8832}
+02-23 19:15:32.410 127.0.0.1:54323       48320  #4659-222 INFO: GET /3/Frames/RTMP_sid_8832_1, parms: {row_count=10}
+02-23 19:15:32.440 127.0.0.1:54323       48320  #4659-218 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8832_2 (rows (cols frame_rdd_76 [1]) [0])), session_id=_sid_8832}
+02-23 19:15:32.446 127.0.0.1:54323       48320  #4659-219 INFO: GET /3/Frames/RTMP_sid_8832_2, parms: {row_count=10}
+02-23 19:15:32.474 127.0.0.1:54323       48320  #4659-222 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8832_3 (rows (cols frame_rdd_76 [2]) [0])), session_id=_sid_8832}
+02-23 19:15:32.480 127.0.0.1:54323       48320  #4659-223 INFO: GET /3/Frames/RTMP_sid_8832_3, parms: {row_count=10}
+02-23 19:15:32.516 127.0.0.1:54323       48320  #4659-220 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8832_3), session_id=_sid_8832}
+02-23 19:15:32.536 127.0.0.1:54323       48320  #4659-222 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8832_2), session_id=_sid_8832}
+02-23 19:15:32.540 127.0.0.1:54323       48320  #4659-223 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8832_4 (rows (cols frame_rdd_76 [3]) [0])), session_id=_sid_8832}
+02-23 19:15:32.546 127.0.0.1:54323       48320  #4659-224 INFO: GET /3/Frames/RTMP_sid_8832_4, parms: {row_count=10}
+02-23 19:15:32.908 127.0.0.1:54323       48320  #4659-218 INFO: GET /, parms: {}
+02-23 19:15:32.914 127.0.0.1:54323       48320  #4659-219 INFO: GET /, parms: {}
+02-23 19:15:32.925 127.0.0.1:54323       48320  #4659-221 INFO: GET /3/InitID, parms: {}
+02-23 19:15:32.975 127.0.0.1:54323       48320  #4659-223 INFO: GET /3/Frames/frame_rdd_107, parms: {row_count=10}
+02-23 19:15:33.001 127.0.0.1:54323       48320  #4659-219 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_99a6_5 (rows (cols frame_rdd_107 [0]) [0])), session_id=_sid_99a6}
+02-23 19:15:33.007 127.0.0.1:54323       48320  #4659-220 INFO: GET /3/Frames/RTMP_sid_99a6_5, parms: {row_count=10}
+02-23 19:15:33.033 127.0.0.1:54323       48320  #4659-223 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_99a6_6 (rows (cols frame_rdd_107 [1]) [0])), session_id=_sid_99a6}
+02-23 19:15:33.047 127.0.0.1:54323       48320  #4659-218 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_99a6_5), session_id=_sid_99a6}
+02-23 19:15:33.052 127.0.0.1:54323       48320  #4659-219 INFO: GET /3/Frames/RTMP_sid_99a6_6, parms: {row_count=10}
+02-23 19:15:33.077 127.0.0.1:54323       48320  #4659-222 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_99a6_7 (rows (cols frame_rdd_107 [2]) [0])), session_id=_sid_99a6}
+02-23 19:15:33.083 127.0.0.1:54323       48320  #4659-223 INFO: GET /3/Frames/RTMP_sid_99a6_7, parms: {row_count=10}
+02-23 19:15:33.320 127.0.0.1:54323       48320  #4659-218 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_99a6_7), session_id=_sid_99a6}
+02-23 19:15:33.422 127.0.0.1:54323       48320  #4659-219 INFO: GET /, parms: {}
+02-23 19:15:33.426 127.0.0.1:54323       48320  #4659-220 INFO: GET /, parms: {}
+02-23 19:15:33.437 127.0.0.1:54323       48320  #4659-222 INFO: GET /3/InitID, parms: {}
+02-23 19:15:33.491 127.0.0.1:54323       48320  #4659-224 INFO: GET /3/Frames/frame_rdd_138, parms: {row_count=10}
+02-23 19:15:33.516 127.0.0.1:54323       48320  #4659-220 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_a2f5_8 (rows (cols frame_rdd_138 [0]) [0])), session_id=_sid_a2f5}
+02-23 19:15:33.523 127.0.0.1:54323       48320  #4659-221 INFO: GET /3/Frames/RTMP_sid_a2f5_8, parms: {row_count=10}
+02-23 19:15:33.548 127.0.0.1:54323       48320  #4659-224 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_a2f5_9 (rows (cols frame_rdd_138 [1]) [0])), session_id=_sid_a2f5}
+02-23 19:15:33.554 127.0.0.1:54323       48320  #4659-218 INFO: GET /3/Frames/RTMP_sid_a2f5_9, parms: {row_count=10}
+02-23 19:15:33.578 127.0.0.1:54323       48320  #4659-221 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_a2f5_10 (rows (cols frame_rdd_138 [2]) [0])), session_id=_sid_a2f5}
+02-23 19:15:33.583 127.0.0.1:54323       48320  #4659-222 INFO: GET /3/Frames/RTMP_sid_a2f5_10, parms: {row_count=10}
+02-23 19:15:33.609 127.0.0.1:54323       48320  #4659-224 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_a2f5_10), session_id=_sid_a2f5}
+02-23 19:15:33.619 127.0.0.1:54323       48320  #4659-219 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_a2f5_9), session_id=_sid_a2f5}
+02-23 19:15:33.895 127.0.0.1:54323       48320  #4659-220 INFO: GET /, parms: {}
+02-23 19:15:33.900 127.0.0.1:54323       48320  #4659-221 INFO: GET /, parms: {}
+02-23 19:15:33.912 127.0.0.1:54323       48320  #4659-223 INFO: GET /3/InitID, parms: {}
+02-23 19:15:33.948 127.0.0.1:54323       48320  #4659-218 INFO: GET /3/Frames/frame_rdd_169, parms: {row_count=10}
+02-23 19:15:33.978 127.0.0.1:54323       48320  #4659-221 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_a2a4_11 (rows (cols frame_rdd_169 [0]) [0])), session_id=_sid_a2a4}
+02-23 19:15:33.984 127.0.0.1:54323       48320  #4659-222 INFO: GET /3/Frames/RTMP_sid_a2a4_11, parms: {row_count=10}
+02-23 19:15:34.009 127.0.0.1:54323       48320  #4659-218 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_a2a4_12 (rows (cols frame_rdd_169 [1]) [0])), session_id=_sid_a2a4}
+02-23 19:15:34.015 127.0.0.1:54323       48320  #4659-219 INFO: GET /3/Frames/RTMP_sid_a2a4_12, parms: {row_count=10}
+02-23 19:15:34.037 127.0.0.1:54323       48320  #4659-221 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_a2a4_12), session_id=_sid_a2a4}
+02-23 19:15:34.048 127.0.0.1:54323       48320  #4659-223 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_a2a4_11), session_id=_sid_a2a4}
+02-23 19:15:34.065 127.0.0.1:54323       48320  #4659-219 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_a2a4_13 (rows (cols frame_rdd_169 [2]) [0])), session_id=_sid_a2a4}
+02-23 19:15:34.070 127.0.0.1:54323       48320  #4659-220 INFO: GET /3/Frames/RTMP_sid_a2a4_13, parms: {row_count=10}
+02-23 19:15:34.365 127.0.0.1:54323       48320  #4659-221 INFO: GET /, parms: {}
+02-23 19:15:34.370 127.0.0.1:54323       48320  #4659-222 INFO: GET /, parms: {}
+02-23 19:15:34.380 127.0.0.1:54323       48320  #4659-224 INFO: GET /3/InitID, parms: {}
+02-23 19:15:34.429 127.0.0.1:54323       48320  #4659-219 INFO: GET /3/Frames/frame_rdd_200, parms: {row_count=10}
+02-23 19:15:34.456 127.0.0.1:54323       48320  #4659-222 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8f54_14 (rows (cols frame_rdd_200 [0]) [0])), session_id=_sid_8f54}
+02-23 19:15:34.462 127.0.0.1:54323       48320  #4659-223 INFO: GET /3/Frames/RTMP_sid_8f54_14, parms: {row_count=10}
+02-23 19:15:34.486 127.0.0.1:54323       48320  #4659-218 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8f54_14), session_id=_sid_8f54}
+02-23 19:15:34.497 127.0.0.1:54323       48320  #4659-220 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_a2a4_13), session_id=_sid_8f54}
+02-23 19:15:34.507 127.0.0.1:54323       48320  #4659-222 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_a2f5_8), session_id=_sid_8f54}
+02-23 19:15:34.517 127.0.0.1:54323       48320  #4659-224 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_99a6_6), session_id=_sid_8f54}
+02-23 19:15:34.527 127.0.0.1:54323       48320  #4659-219 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8832_4), session_id=_sid_8f54}
+02-23 19:15:34.538 127.0.0.1:54323       48320  #4659-221 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8832_1), session_id=_sid_8f54}
+02-23 19:15:34.556 127.0.0.1:54323       48320  #4659-224 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8f54_15 (rows (cols frame_rdd_200 [1]) [0])), session_id=_sid_8f54}
+02-23 19:15:34.562 127.0.0.1:54323       48320  #4659-218 INFO: GET /3/Frames/RTMP_sid_8f54_15, parms: {row_count=10}
+02-23 19:15:34.589 127.0.0.1:54323       48320  #4659-221 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8f54_16 (rows (cols frame_rdd_200 [2]) [0])), session_id=_sid_8f54}
+02-23 19:15:34.595 127.0.0.1:54323       48320  #4659-222 INFO: GET /3/Frames/RTMP_sid_8f54_16, parms: {row_count=10}
+02-23 19:15:34.928 127.0.0.1:54323       48320  #4659-223 INFO: GET /, parms: {}
+02-23 19:15:34.933 127.0.0.1:54323       48320  #4659-224 INFO: GET /, parms: {}
+02-23 19:15:34.946 127.0.0.1:54323       48320  #4659-219 INFO: GET /3/InitID, parms: {}
+02-23 19:15:35.009 127.0.0.1:54323       48320  #4659-221 INFO: GET /3/Frames/frame_rdd_231, parms: {row_count=10}
+02-23 19:15:35.455 127.0.0.1:54323       48320  #4659-222 INFO: GET /, parms: {}
+02-23 19:15:35.460 127.0.0.1:54323       48320  #4659-223 INFO: GET /, parms: {}
+02-23 19:15:35.470 127.0.0.1:54323       48320  #4659-218 INFO: GET /3/InitID, parms: {}
+02-23 19:15:35.510 127.0.0.1:54323       48320  #4659-220 INFO: GET /3/Frames/frame1, parms: {row_count=10}
+02-23 19:15:35.555 127.0.0.1:54323       48320  #4659-222 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8f54_16), session_id=_sid_8403}
+02-23 19:15:35.565 127.0.0.1:54323       48320  #4659-224 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8f54_15), session_id=_sid_8403}
