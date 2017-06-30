@@ -38,8 +38,7 @@
 #install.packages("sparklyr")
 
 #The latest stable version of rsparkling can be installed as follows:
-#library(devtools)
-#devtools::install_github("h2oai/sparkling-water", ref = "master", subdir = "/r/rsparkling")
+#install.packages("rsparkling")
 
 ##############################################################################################################
 #If Spark needs to be installed, that can be done using the following sparklyr command:
@@ -56,6 +55,9 @@ sc <- spark_connect(master = "local")
 #Let's inspect the H2OContext for our Spark connection:
 h2o_context(sc,FALSE)
 
+#Open Spark UI
+spark_web(sc)
+
 #We can also view the H2O Flow web UI:
 h2o_flow(sc,FALSE)
 ##############################################################################################################
@@ -71,7 +73,7 @@ library(readr)
 library(sparklyr)
 library(h2o)
 library(shinythemes)
-
+library(nycflights13)
 #Upload data
 flights_tbl <- copy_to(sc, nycflights13::flights, "flights")
 airports_tbl <- copy_to(sc, nycflights13::airports, "airports")
@@ -268,4 +270,5 @@ server <- function(input, output) {
 shinyApp(ui = ui, server = server)
 
 #Disconnect from Spark and end session
+#h2o.shutdown(prompt=FALSE)
 #spark_disconnect(sc)

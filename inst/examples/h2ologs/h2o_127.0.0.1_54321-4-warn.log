@@ -1,0 +1,26 @@
+05-09 17:18:42.533 127.0.0.1:54321       36666  FJ-1-9    WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+05-09 17:18:42.534 127.0.0.1:54321       36666  FJ-1-9    WARN: ADMM solver finished with gerr = 1.8046728094474151 >  eps = 1.0E-4
+05-09 17:18:43.706 127.0.0.1:54321       36666  FJ-2-1    WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+05-09 17:18:43.706 127.0.0.1:54321       36666  FJ-2-1    WARN: ADMM solver finished with gerr = 1.629906636718572 >  eps = 1.0E-4
+05-09 17:18:43.709 127.0.0.1:54321       36666  FJ-2-7    WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+05-09 17:18:43.709 127.0.0.1:54321       36666  FJ-2-7    WARN: ADMM solver finished with gerr = 1.8441834555719359 >  eps = 1.0E-4
+05-09 17:18:43.733 127.0.0.1:54321       36666  FJ-2-13   WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+05-09 17:18:43.733 127.0.0.1:54321       36666  FJ-2-13   WARN: ADMM solver finished with gerr = 1.7294202163513188 >  eps = 1.0E-4
+05-09 17:18:43.734 127.0.0.1:54321       36666  FJ-2-11   WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+05-09 17:18:43.741 127.0.0.1:54321       36666  FJ-2-11   WARN: ADMM solver finished with gerr = 1.6020293106116985 >  eps = 1.0E-4
+05-09 17:18:43.984 127.0.0.1:54321       36666  FJ-2-15   WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+05-09 17:18:43.984 127.0.0.1:54321       36666  FJ-2-15   WARN: ADMM solver finished with gerr = 1.7479830186837786 >  eps = 1.0E-4
+05-09 19:26:05.203 127.0.0.1:54321       38436  FJ-1-11   WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+05-09 19:26:05.205 127.0.0.1:54321       38436  FJ-1-11   WARN: ADMM solver finished with gerr = 1.8046728094474151 >  eps = 1.0E-4
+06-06 18:45:37.794 127.0.0.1:54321       6560   FJ-1-9    WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+06-06 18:45:37.794 127.0.0.1:54321       6560   FJ-1-9    WARN: ADMM solver finished with gerr = 1.8046728094474151 >  eps = 1.0E-4
+06-06 18:45:39.395 127.0.0.1:54321       6560   FJ-2-15   WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+06-06 18:45:39.398 127.0.0.1:54321       6560   FJ-2-15   WARN: ADMM solver finished with gerr = 1.8441834555719359 >  eps = 1.0E-4
+06-06 18:45:39.398 127.0.0.1:54321       6560   FJ-2-11   WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+06-06 18:45:39.398 127.0.0.1:54321       6560   FJ-2-11   WARN: ADMM solver finished with gerr = 1.6020293106116985 >  eps = 1.0E-4
+06-06 18:45:39.411 127.0.0.1:54321       6560   FJ-2-5    WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+06-06 18:45:39.411 127.0.0.1:54321       6560   FJ-2-5    WARN: ADMM solver finished with gerr = 1.629906636718572 >  eps = 1.0E-4
+06-06 18:45:39.512 127.0.0.1:54321       6560   FJ-2-7    WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+06-06 18:45:39.512 127.0.0.1:54321       6560   FJ-2-7    WARN: ADMM solver finished with gerr = 1.7294202163513188 >  eps = 1.0E-4
+06-06 18:45:39.678 127.0.0.1:54321       6560   FJ-2-13   WARN: ADMM solver stopped after 10000 iterations. (max_iter=10000)
+06-06 18:45:39.678 127.0.0.1:54321       6560   FJ-2-13   WARN: ADMM solver finished with gerr = 1.7479830186837786 >  eps = 1.0E-4
