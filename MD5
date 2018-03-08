@@ -1,10 +1,10 @@
-e7eaff1f2c5418643677e0be52217ae6 *DESCRIPTION
+3e1c3738f3405d3e7c300b9b155b5f4b *DESCRIPTION
 fa818a259cbed7ce8bc2a22d35a464fc *LICENSE
 2e572331c589866b73d81412beefe550 *NAMESPACE
-3ea02b7f8fa139a86171547f104d7eb1 *NEWS.md
+d317a97a578bdd8d834be50ae35021fd *NEWS.md
 8f43de6daaa79f07b7dcff68f8c4fc05 *R/h2o_context.R
-95586fc3ca247c3d6480de3df66aa6d8 *R/install_h2o.R
-590e1848770df088117c1e705fa79ff9 *R/package.R
+f9452b229448deb7184e2bffd9041a58 *R/install_h2o.R
+1b622f5822443422fe5cec20d28440a7 *R/package.R
 9dbc2d73404ce30e10bed9f0eda400ad *inst/examples/example_rsparkling.R
 00a54921dc6403dd8215c6b080d31a7e *inst/examples/h2ologs/h2o_127.0.0.1_54321-3-info.log
 5b384d9370189c6b6b52ec38e6b7f502 *inst/examples/h2ologs/h2o_127.0.0.1_54321-4-warn.log
