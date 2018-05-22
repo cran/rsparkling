@@ -1,6 +1,6 @@
 Package: rsparkling
 Title: R Interface for H2O Sparkling Water
-Version: 0.2.3
+Version: 0.2.4
 Authors@R: c(
   person("Navdeep", "Gill", role = c("aut", "cre"), email = "navdeep@h2o.ai"),
   person("Erin", "LeDell", role = c("aut"), email = "erin@h2o.ai"),
@@ -21,7 +21,8 @@ SystemRequirements: Java (>6)
 URL: https://github.com/h2oai/rsparkling
 BugReports: http://jira.h2o.ai
 RoxygenNote: 5.0.1
-Packaged: 2018-03-08 18:13:57 UTC; navdeepgill
+Depends: R (>= 2.10)
+Packaged: 2018-05-22 20:44:36 UTC; navdeepgill
 Author: Navdeep Gill [aut, cre],
   Erin LeDell [aut],
   Michal Malohlava [aut],
@@ -31,4 +32,4 @@ Author: Navdeep Gill [aut, cre],
   RStudio [cph]
 Maintainer: Navdeep Gill <navdeep@h2o.ai>
 Repository: CRAN
-Date/Publication: 2018-03-08 18:22:20 UTC
+Date/Publication: 2018-05-22 21:03:07 UTC

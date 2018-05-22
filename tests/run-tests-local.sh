@@ -12,7 +12,7 @@ run-tests () {
 
 export NOT_CRAN="true"
 if [ "$#" -eq "0" ]; then
-    run-tests 2.0.5 1.6.8 #Insert more Sparkling Water versions here. Currently set to latest for Spark 2.0 and 1.6.
+    run-tests 2.3.4 2.2.15 2.1.29 #Insert more Sparkling Water versions here.
 else
     run-tests "$@"
 fi
