@@ -65,7 +65,7 @@ verify_h2o_version <- function(spark_version, sw_version) {
      if ("package:h2o" %in% search()) { detach("package:h2o", unload = TRUE) }
      if (isNamespaceLoaded("h2o")){ unloadNamespace("h2o") }
      remove.packages("h2o")
-     install.packages("h2o", type = "source", repos = "https://h2o-release.s3.amazonaws.com/h2o/rel-', h2o_build_name ,'/', h2o_build_version ,'/R")\n'))
+     install.packages("h2o", type = "source", repos = "https://h2o-release.s3.amazonaws.com/h2o/', h2o_build_name ,'/', h2o_build_version ,'/R")\n'))
     }
 }
 
@@ -118,8 +118,10 @@ spark_dependencies <- function(spark_version, scala_version, ...) {
   }else if(!is.null(sw_version) && !is.null(sw_location)){
     # The user provided both SW version and SW artifact, just check if we are running on correct Spark version for the
     # desired Sparkling Water version
-    check_spark_version_for_sw_version(spark_version, sw_version)
-    verify_h2o_version(spark_version, sw_version)
+    if(!grepl('-SNAPSHOT', sw_version)){
+      check_spark_version_for_sw_version(spark_version, sw_version)
+      verify_h2o_version(spark_version, sw_version)
+    }
   }else{
     # SW artifact is not empty, however Sparkling Water version is not specified.
     stop(sprintf("You specified location to Sparkling artifact, but did not specify the version. The version is
