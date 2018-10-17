@@ -1,0 +1,196 @@
+08-09 12:02:07.915 127.0.0.1:54321       46253  #r thread INFO: Sparkling Water version: 2.3.99999-SNAPSHOT
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO: Spark version: 2.3.1
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO: Integrated H2O version: 3.20.0.5
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO: The following Spark configuration is used: 
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.driver.port,54592)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.ext.h2o.external.start.mode,manual)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.ext.h2o.cloud.name,sparkling-water-kuba_local-1533808918024)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.ext.h2o.client.ip,127.0.0.1)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.home,/Users/kuba/devel/programs/spark-2.3.1-bin-hadoop2.7)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.repl.local.jars,file:///Users/kuba/devel/repos/sparkling-water/assembly/build/libs/sparkling-water-assembly_2.11-2.3.99999-SNAPSHOT-all.jar)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.ext.h2o.backend.cluster.mode,internal)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.hadoop.yarn.timeline-service.enabled,false)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.executor.id,driver)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.driver.host,localhost)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.app.id,local-1533808918024)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.ext.h2o.client.log.dir,/Users/kuba/devel/repos/sparkling-water/r/src/tests/testthat/h2ologs/local-1533808918024)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.ext.h2o.external.cluster.num.h2o.nodes,1)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.app.name,sparklyr)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.locality.wait,30000)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.master,local[*])
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.submit.deployMode,client)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.spark.port.maxRetries,128)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.jars,file:///Users/kuba/devel/repos/sparkling-water/assembly/build/libs/sparkling-water-assembly_2.11-2.3.99999-SNAPSHOT-all.jar,file:/usr/local/lib/R/3.4/site-library/sparklyr/java/sparklyr-2.3-2.11.jar)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO:     (spark.env.SPARK_LOCAL_IP,127.0.0.1)
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO: 
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO: Found XGBoost backend with library: xgboost4j_minimal
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO: Your system supports only minimal version of XGBoost (no GPUs, no multithreading)!
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO: ----- H2O started  -----
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO: Build git branch: rel-wright
+08-09 12:02:07.925 127.0.0.1:54321       46253  #r thread INFO: Build git hash: c7eb680591db62ba39af21da349261616e06d5a6
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: Build git describe: jenkins-3.20.0.4-15-gc7eb680
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: Build project version: 3.20.0.5
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: Build age: 11 hours and 54 minutes
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: Built by: 'jenkins'
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: Built on: '2018-08-09 00:07:27'
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: StackTraceCollector Build git branch: (unknown)
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: StackTraceCollector Build git hash: (unknown)
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: StackTraceCollector Build git describe: (unknown)
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: StackTraceCollector Build project version: (unknown)
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: StackTraceCollector Built by: (unknown)
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: StackTraceCollector Built on: (unknown)
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: Watchdog Build git branch: (unknown)
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: Watchdog Build git hash: (unknown)
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: Watchdog Build git describe: (unknown)
+08-09 12:02:07.926 127.0.0.1:54321       46253  #r thread INFO: Watchdog Build project version: (unknown)
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: Watchdog Built by: (unknown)
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: Watchdog Built on: (unknown)
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: XGBoost Build git branch: (unknown)
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: XGBoost Build git hash: (unknown)
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: XGBoost Build git describe: (unknown)
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: XGBoost Build project version: (unknown)
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: XGBoost Built by: (unknown)
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: XGBoost Built on: (unknown)
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: Processed H2O arguments: [-name, sparkling-water-kuba_local-1533808918024, -port_offset, 1, -log_level, INFO, -baseport, 54321, -ip, localhost, -log_dir, /Users/kuba/devel/repos/sparkling-water/r/src/tests/testthat/h2ologs/local-1533808918024]
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: Java availableProcessors: 8
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: Java heap totalMemory: 442.5 MB
+08-09 12:02:07.927 127.0.0.1:54321       46253  #r thread INFO: Java heap maxMemory: 910.5 MB
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: Java version: Java 1.8.0_152 (from Oracle Corporation)
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: JVM launch parameters: [-Xmx1g]
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: OS version: Mac OS X 10.13.6 (x86_64)
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: Machine physical memory: 16.00 GB
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: X-h2o-cluster-id: 1533808927118
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: User name: 'kuba'
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: IPv6 stack selected: false
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:b9b8:2a7:76a4:8066%utun0/name:utun0 (utun0)
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: Network address/interface is not reachable in 150ms: /fe80:0:0:0:c56:b8ff:fecc:d9fd%awdl0/name:awdl0 (awdl0)
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: Network address/interface is not reachable in 150ms: /172.17.0.239/name:utun1 (utun1)
+08-09 12:02:07.928 127.0.0.1:54321       46253  #r thread INFO: Possible IP Address: en0 (en0), fe80:0:0:0:1c9e:6d94:f051:e33c%en0
+08-09 12:02:07.929 127.0.0.1:54321       46253  #r thread INFO: Possible IP Address: en0 (en0), 10.0.0.1
+08-09 12:02:07.929 127.0.0.1:54321       46253  #r thread INFO: Possible IP Address: lo0 (lo0), fe80:0:0:0:0:0:0:1%lo0
+08-09 12:02:07.929 127.0.0.1:54321       46253  #r thread INFO: Possible IP Address: lo0 (lo0), 0:0:0:0:0:0:0:1%lo0
+08-09 12:02:07.929 127.0.0.1:54321       46253  #r thread INFO: Possible IP Address: lo0 (lo0), 127.0.0.1
+08-09 12:02:07.929 127.0.0.1:54321       46253  #r thread INFO: H2O node running in unencrypted mode.
+08-09 12:02:07.931 127.0.0.1:54321       46253  #r thread INFO: Internal communication uses port: 54322
+08-09 12:02:07.931 127.0.0.1:54321       46253  #r thread INFO: Listening for HTTP and REST traffic on http://127.0.0.1:54321/
+08-09 12:02:07.957 127.0.0.1:54321       46253  #r thread INFO: H2O cloud name: 'sparkling-water-kuba_local-1533808918024' on localhost/127.0.0.1:54321, discovery address /226.45.203.70:57901
+08-09 12:02:07.957 127.0.0.1:54321       46253  #r thread INFO: If you have trouble connecting, try SSH tunneling from your local machine (e.g., via port 55555):
+08-09 12:02:07.957 127.0.0.1:54321       46253  #r thread INFO:   1. Open a terminal and run 'ssh -L 55555:localhost:54321 kuba@127.0.0.1'
+08-09 12:02:07.957 127.0.0.1:54321       46253  #r thread INFO:   2. Point your browser to http://localhost:55555
+08-09 12:02:08.133 127.0.0.1:54321       46253  #r thread INFO: Log dir: '/Users/kuba/devel/repos/sparkling-water/r/src/tests/testthat/h2ologs/local-1533808918024'
+08-09 12:02:08.133 127.0.0.1:54321       46253  #r thread INFO: Cur dir: '/Users/kuba/devel/repos/sparkling-water/r/src/tests/testthat'
+08-09 12:02:08.140 127.0.0.1:54321       46253  #r thread INFO: Distributed HTTP import not available (import from HTTP/HTTPS will be eager)
+08-09 12:02:08.142 127.0.0.1:54321       46253  #r thread INFO: HDFS subsystem successfully initialized
+08-09 12:02:08.147 127.0.0.1:54321       46253  #r thread INFO: S3 subsystem successfully initialized
+08-09 12:02:08.147 127.0.0.1:54321       46253  #r thread INFO: GCS subsystem not available
+08-09 12:02:08.147 127.0.0.1:54321       46253  #r thread INFO: Flow dir: '/Users/kuba/h2oflows'
+08-09 12:02:08.158 127.0.0.1:54321       46253  #r thread INFO: Cloud of size 1 formed [localhost/127.0.0.1:54321]
+08-09 12:02:08.174 127.0.0.1:54321       46253  #r thread INFO: Registered parsers: [GUESS, ARFF, XLS, SVMLight, AVRO, ORC, PARQUET, CSV]
+08-09 12:02:08.175 127.0.0.1:54321       46253  #r thread INFO: StackTraceCollector extension initialized
+08-09 12:02:08.175 127.0.0.1:54321       46253  #r thread INFO: Watchdog extension initialized
+08-09 12:02:08.175 127.0.0.1:54321       46253  #r thread INFO: XGBoost extension initialized
+08-09 12:02:08.175 127.0.0.1:54321       46253  #r thread INFO: Registered 3 core extensions in: 31ms
+08-09 12:02:08.175 127.0.0.1:54321       46253  #r thread INFO: Registered H2O core extensions: [StackTraceCollector, Watchdog, XGBoost]
+08-09 12:02:08.520 127.0.0.1:54321       46253  #r thread INFO: Registered: 165 REST APIs in: 345ms
+08-09 12:02:08.520 127.0.0.1:54321       46253  #r thread INFO: Registered REST API extensions: [XGBoost, Algos, AutoML, Core V3, Core V4]
+08-09 12:02:08.636 127.0.0.1:54321       46253  #r thread INFO: Registered: 248 schemas in 116ms
+08-09 12:02:08.636 127.0.0.1:54321       46253  #r thread INFO: H2O started in 1368ms
+08-09 12:02:08.636 127.0.0.1:54321       46253  #r thread INFO: 
+08-09 12:02:08.637 127.0.0.1:54321       46253  #r thread INFO: Open H2O Flow in your web browser: http://127.0.0.1:54321
+08-09 12:02:08.637 127.0.0.1:54321       46253  #r thread INFO: 
+08-09 12:02:14.168 127.0.0.1:54321       46253  #67697-85 INFO: GET /, parms: {}
+08-09 12:02:14.282 127.0.0.1:54321       46253  #67697-86 INFO: GET /, parms: {}
+08-09 12:02:14.482 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/Capabilities/API, parms: {}
+08-09 12:02:14.483 127.0.0.1:54321       46253  #67697-88 INFO: Locking cloud to new members, because water.api.schemas3.CapabilitiesV3
+08-09 12:02:14.502 127.0.0.1:54321       46253  #67697-89 INFO: GET /3/InitID, parms: {}
+08-09 12:02:14.774 127.0.0.1:54321       46253  #67697-91 INFO: GET /3/Frames/frame_rdd_34_afbfe59a630aa61cebdb2264f1d347ad, parms: {row_count=10}
+08-09 12:02:14.994 127.0.0.1:54321       46253  #67697-85 INFO: GET /, parms: {}
+08-09 12:02:15.048 127.0.0.1:54321       46253  #67697-86 INFO: GET /, parms: {}
+08-09 12:02:15.070 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/Capabilities/API, parms: {}
+08-09 12:02:15.091 127.0.0.1:54321       46253  #67697-89 INFO: GET /3/InitID, parms: {}
+08-09 12:02:15.299 127.0.0.1:54321       46253  #67697-91 INFO: GET /3/Frames/frame_rdd_34_afbfe59a630aa61cebdb2264f1d347ad, parms: {row_count=10}
+08-09 12:02:15.343 127.0.0.1:54321       46253  #67697-86 INFO: GET /3/Frames/frame_rdd_34_afbfe59a630aa61cebdb2264f1d347ad, parms: {row_count=10}
+08-09 12:02:15.392 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/Frames/frame_rdd_34_afbfe59a630aa61cebdb2264f1d347ad, parms: {row_count=10}
+08-09 12:02:15.968 127.0.0.1:54321       46253  #67697-89 INFO: GET /, parms: {}
+08-09 12:02:15.977 127.0.0.1:54321       46253  #67697-90 INFO: GET /, parms: {}
+08-09 12:02:15.998 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/Capabilities/API, parms: {}
+08-09 12:02:16.011 127.0.0.1:54321       46253  #67697-86 INFO: GET /3/InitID, parms: {}
+08-09 12:02:16.122 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/Frames/frame_rdd_69_a1b51b77f0fa5a0bbdbb1ca6bb014c50, parms: {row_count=10}
+08-09 12:02:16.194 127.0.0.1:54321       46253  #67697-91 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8270_1 (rows (cols frame_rdd_69_a1b51b77f0fa5a0bbdbb1ca6bb014c50 [0]) [0])), session_id=_sid_8270}
+08-09 12:02:16.298 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/Frames/RTMP_sid_8270_1, parms: {row_count=10}
+08-09 12:02:16.394 127.0.0.1:54321       46253  #67697-88 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8270_2 (rows (cols frame_rdd_69_a1b51b77f0fa5a0bbdbb1ca6bb014c50 [1]) [0])), session_id=_sid_8270}
+08-09 12:02:16.405 127.0.0.1:54321       46253  #67697-89 INFO: GET /3/Frames/RTMP_sid_8270_2, parms: {row_count=10}
+08-09 12:02:16.458 127.0.0.1:54321       46253  #67697-85 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8270_3 (rows (cols frame_rdd_69_a1b51b77f0fa5a0bbdbb1ca6bb014c50 [2]) [0])), session_id=_sid_8270}
+08-09 12:02:16.471 127.0.0.1:54321       46253  #67697-86 INFO: GET /3/Frames/RTMP_sid_8270_3, parms: {row_count=10}
+08-09 12:02:16.512 127.0.0.1:54321       46253  #67697-89 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8270_4 (rows (cols frame_rdd_69_a1b51b77f0fa5a0bbdbb1ca6bb014c50 [3]) [0])), session_id=_sid_8270}
+08-09 12:02:16.524 127.0.0.1:54321       46253  #67697-90 INFO: GET /3/Frames/RTMP_sid_8270_4, parms: {row_count=10}
+08-09 12:02:16.552 127.0.0.1:54321       46253  #67697-85 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8270_4), session_id=_sid_8270}
+08-09 12:02:16.581 127.0.0.1:54321       46253  #67697-87 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8270_3), session_id=_sid_8270}
+08-09 12:02:16.827 127.0.0.1:54321       46253  #67697-88 INFO: GET /, parms: {}
+08-09 12:02:16.841 127.0.0.1:54321       46253  #67697-89 INFO: GET /, parms: {}
+08-09 12:02:16.859 127.0.0.1:54321       46253  #67697-91 INFO: GET /3/Capabilities/API, parms: {}
+08-09 12:02:16.869 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/InitID, parms: {}
+08-09 12:02:16.934 127.0.0.1:54321       46253  #67697-87 INFO: GET /3/Frames/frame_rdd_100_8b69184ad2f2e3cf1e8e6a3b011b49de, parms: {row_count=10}
+08-09 12:02:16.973 127.0.0.1:54321       46253  #67697-90 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_9d05_5 (rows (cols frame_rdd_100_8b69184ad2f2e3cf1e8e6a3b011b49de [0]) [0])), session_id=_sid_9d05}
+08-09 12:02:16.983 127.0.0.1:54321       46253  #67697-91 INFO: GET /3/Frames/RTMP_sid_9d05_5, parms: {row_count=10}
+08-09 12:02:17.027 127.0.0.1:54321       46253  #67697-87 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_9d05_6 (rows (cols frame_rdd_100_8b69184ad2f2e3cf1e8e6a3b011b49de [1]) [0])), session_id=_sid_9d05}
+08-09 12:02:17.039 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/Frames/RTMP_sid_9d05_6, parms: {row_count=10}
+08-09 12:02:17.078 127.0.0.1:54321       46253  #67697-91 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_9d05_7 (rows (cols frame_rdd_100_8b69184ad2f2e3cf1e8e6a3b011b49de [2]) [0])), session_id=_sid_9d05}
+08-09 12:02:17.088 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/Frames/RTMP_sid_9d05_7, parms: {row_count=10}
+08-09 12:02:17.113 127.0.0.1:54321       46253  #67697-87 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_9d05_6), session_id=_sid_9d05}
+08-09 12:02:17.361 127.0.0.1:54321       46253  #67697-88 INFO: GET /, parms: {}
+08-09 12:02:17.371 127.0.0.1:54321       46253  #67697-89 INFO: GET /, parms: {}
+08-09 12:02:17.397 127.0.0.1:54321       46253  #67697-91 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_9d05_7), session_id=_sid_9d05}
+08-09 12:02:17.417 127.0.0.1:54321       46253  #67697-86 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_9d05_5), session_id=_sid_9d05}
+08-09 12:02:17.436 127.0.0.1:54321       46253  #67697-88 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8270_2), session_id=_sid_9d05}
+08-09 12:02:17.455 127.0.0.1:54321       46253  #67697-90 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8270_1), session_id=_sid_9d05}
+08-09 12:02:17.474 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/Capabilities/API, parms: {}
+08-09 12:02:17.485 127.0.0.1:54321       46253  #67697-86 INFO: GET /3/InitID, parms: {}
+08-09 12:02:17.556 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/Frames/frame_rdd_129_8b4d65bb2ff66a93f2f7bba932744536, parms: {row_count=10}
+08-09 12:02:17.597 127.0.0.1:54321       46253  #67697-91 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8208_8 (rows (cols frame_rdd_129_8b4d65bb2ff66a93f2f7bba932744536 [0]) [0])), session_id=_sid_8208}
+08-09 12:02:17.608 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/Frames/RTMP_sid_8208_8, parms: {row_count=10}
+08-09 12:02:17.648 127.0.0.1:54321       46253  #67697-88 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8208_9 (rows (cols frame_rdd_129_8b4d65bb2ff66a93f2f7bba932744536 [1]) [0])), session_id=_sid_8208}
+08-09 12:02:17.661 127.0.0.1:54321       46253  #67697-89 INFO: GET /3/Frames/RTMP_sid_8208_9, parms: {row_count=10}
+08-09 12:02:17.713 127.0.0.1:54321       46253  #67697-86 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8208_9), session_id=_sid_8208}
+08-09 12:02:17.723 127.0.0.1:54321       46253  #67697-87 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_8208_10 (rows (cols frame_rdd_129_8b4d65bb2ff66a93f2f7bba932744536 [2]) [0])), session_id=_sid_8208}
+08-09 12:02:17.733 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/Frames/RTMP_sid_8208_10, parms: {row_count=10}
+08-09 12:02:17.950 127.0.0.1:54321       46253  #67697-89 INFO: GET /, parms: {}
+08-09 12:02:17.959 127.0.0.1:54321       46253  #67697-90 INFO: GET /, parms: {}
+08-09 12:02:17.978 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/Capabilities/API, parms: {}
+08-09 12:02:17.989 127.0.0.1:54321       46253  #67697-86 INFO: GET /3/InitID, parms: {}
+08-09 12:02:18.045 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/Frames/frame_rdd_158_827372f03b29f5be579a271f61c4d38, parms: {row_count=10}
+08-09 12:02:18.084 127.0.0.1:54321       46253  #67697-91 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_be0b_11 (rows (cols frame_rdd_158_827372f03b29f5be579a271f61c4d38 [0]) [0])), session_id=_sid_be0b}
+08-09 12:02:18.094 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/Frames/RTMP_sid_be0b_11, parms: {row_count=10}
+08-09 12:02:18.139 127.0.0.1:54321       46253  #67697-88 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_be0b_12 (rows (cols frame_rdd_158_827372f03b29f5be579a271f61c4d38 [1]) [0])), session_id=_sid_be0b}
+08-09 12:02:18.151 127.0.0.1:54321       46253  #67697-89 INFO: GET /3/Frames/RTMP_sid_be0b_12, parms: {row_count=10}
+08-09 12:02:18.196 127.0.0.1:54321       46253  #67697-85 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_be0b_13 (rows (cols frame_rdd_158_827372f03b29f5be579a271f61c4d38 [2]) [0])), session_id=_sid_be0b}
+08-09 12:02:18.206 127.0.0.1:54321       46253  #67697-86 INFO: GET /3/Frames/RTMP_sid_be0b_13, parms: {row_count=10}
+08-09 12:02:18.230 127.0.0.1:54321       46253  #67697-88 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_be0b_12), session_id=_sid_be0b}
+08-09 12:02:18.530 127.0.0.1:54321       46253  #67697-89 INFO: GET /, parms: {}
+08-09 12:02:18.543 127.0.0.1:54321       46253  #67697-90 INFO: GET /, parms: {}
+08-09 12:02:18.563 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/Capabilities/API, parms: {}
+08-09 12:02:18.574 127.0.0.1:54321       46253  #67697-86 INFO: GET /3/InitID, parms: {}
+08-09 12:02:18.659 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/Frames/frame_rdd_189_94fb12d7c54c6eabf70f8045d75c42df, parms: {row_count=10}
+08-09 12:02:18.697 127.0.0.1:54321       46253  #67697-91 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_87db_14 (rows (cols frame_rdd_189_94fb12d7c54c6eabf70f8045d75c42df [0]) [0])), session_id=_sid_87db}
+08-09 12:02:18.708 127.0.0.1:54321       46253  #67697-85 INFO: GET /3/Frames/RTMP_sid_87db_14, parms: {row_count=10}
+08-09 12:02:18.753 127.0.0.1:54321       46253  #67697-88 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_87db_15 (rows (cols frame_rdd_189_94fb12d7c54c6eabf70f8045d75c42df [1]) [0])), session_id=_sid_87db}
+08-09 12:02:18.765 127.0.0.1:54321       46253  #67697-89 INFO: GET /3/Frames/RTMP_sid_87db_15, parms: {row_count=10}
+08-09 12:02:18.798 127.0.0.1:54321       46253  #67697-85 INFO: POST /99/Rapids, parms: {ast=(tmp= RTMP_sid_87db_16 (rows (cols frame_rdd_189_94fb12d7c54c6eabf70f8045d75c42df [2]) [0])), session_id=_sid_87db}
+08-09 12:02:18.809 127.0.0.1:54321       46253  #67697-86 INFO: GET /3/Frames/RTMP_sid_87db_16, parms: {row_count=10}
+08-09 12:02:18.838 127.0.0.1:54321       46253  #67697-88 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_87db_16), session_id=_sid_87db}
+08-09 12:02:18.859 127.0.0.1:54321       46253  #67697-90 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_87db_15), session_id=_sid_87db}
+08-09 12:02:19.155 127.0.0.1:54321       46253  #67697-91 INFO: GET /, parms: {}
+08-09 12:02:19.171 127.0.0.1:54321       46253  #67697-85 INFO: GET /, parms: {}
+08-09 12:02:19.186 127.0.0.1:54321       46253  #67697-87 INFO: GET /3/Capabilities/API, parms: {}
+08-09 12:02:19.197 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/InitID, parms: {}
+08-09 12:02:19.294 127.0.0.1:54321       46253  #67697-90 INFO: GET /3/Frames/frame_rdd_218_b98681bd95f1b7dbb38f9413e3f4425c, parms: {row_count=10}
+08-09 12:02:19.636 127.0.0.1:54321       46253  #67697-91 INFO: GET /, parms: {}
+08-09 12:02:19.645 127.0.0.1:54321       46253  #67697-85 INFO: GET /, parms: {}
+08-09 12:02:19.670 127.0.0.1:54321       46253  #67697-87 INFO: GET /3/Capabilities/API, parms: {}
+08-09 12:02:19.681 127.0.0.1:54321       46253  #67697-88 INFO: GET /3/InitID, parms: {}
+08-09 12:02:19.744 127.0.0.1:54321       46253  #67697-90 INFO: GET /3/Frames/frame1, parms: {row_count=10}
+08-09 12:02:19.858 127.0.0.1:54321       46253  #67697-85 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_87db_14), session_id=_sid_a965}
+08-09 12:02:19.878 127.0.0.1:54321       46253  #67697-87 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_be0b_13), session_id=_sid_a965}
+08-09 12:02:19.902 127.0.0.1:54321       46253  #67697-89 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_be0b_11), session_id=_sid_a965}
+08-09 12:02:19.928 127.0.0.1:54321       46253  #67697-91 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8208_10), session_id=_sid_a965}
+08-09 12:02:19.951 127.0.0.1:54321       46253  #67697-86 INFO: POST /99/Rapids, parms: {ast=(rm RTMP_sid_8208_8), session_id=_sid_a965}
