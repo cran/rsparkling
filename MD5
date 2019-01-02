@@ -1,10 +1,10 @@
-5e4a32c41c2d8c91fb6f2c0f161e4d72 *DESCRIPTION
+045af49b6ac37b73c7113a47ed7d67ab *DESCRIPTION
 fa818a259cbed7ce8bc2a22d35a464fc *LICENSE
 a7660e6ec10b0666865fa213a1551bc8 *NAMESPACE
 640ed6ca50f892149e7a514291d1c2f1 *R/h2o_context.R
 0183ac9aca60d55e033704bf6b45ec41 *R/install_h2o.R
 0fde089a0882c488beeed26fe55f9eca *R/package.R
-2493aa5a4cda8eefc2a9a5f071f6a204 *R/sysdata.rda
+9bef2ff93fc8fd0ef589440d57cff239 *R/sysdata.rda
 9dbc2d73404ce30e10bed9f0eda400ad *inst/examples/example_rsparkling.R
 5135605f4502a578ba6a5b442615a5c7 *inst/examples/nycflights13.R
 53e0d373f91013ad9dee64ae2e726254 *inst/examples/screenshots/h2o-result.png
