@@ -1,10 +1,10 @@
-bbadf2695db58985ae70e5972e238f23 *DESCRIPTION
+5eba060c7e3cac2379c69349951952a1 *DESCRIPTION
 fa818a259cbed7ce8bc2a22d35a464fc *LICENSE
 a7660e6ec10b0666865fa213a1551bc8 *NAMESPACE
-640ed6ca50f892149e7a514291d1c2f1 *R/h2o_context.R
+8a5dc1bbd972c8c17f89830cfd012ea2 *R/h2o_context.R
 0183ac9aca60d55e033704bf6b45ec41 *R/install_h2o.R
 0fde089a0882c488beeed26fe55f9eca *R/package.R
-aae7b06453f7acf35dc4cf6307288323 *R/sysdata.rda
+6a6173eb4042d32150024daf0a6838ed *R/sysdata.rda
 9dbc2d73404ce30e10bed9f0eda400ad *inst/examples/example_rsparkling.R
 5135605f4502a578ba6a5b442615a5c7 *inst/examples/nycflights13.R
 53e0d373f91013ad9dee64ae2e726254 *inst/examples/screenshots/h2o-result.png
@@ -20,4 +20,4 @@ fde325a6f2fc99c5b35c27e819ca86e4 *man/as_h2o_frame.Rd
 d49717ec6a7ddeb30236c38977be90c9 *man/h2o_flow.Rd
 1cb5e0b0e729cfc6db6231535b6f8b99 *man/h2o_release_table.Rd
 1e9b5574976765c2721c0c61ea81ee9a *tests/testthat.R
-81282553a48c10b4f4a41d5254853a70 *tests/testthat/test_transforms.R
+a664be6f07e9d9b3c3b2e07e122893ca *tests/testthat/test_transforms.R
